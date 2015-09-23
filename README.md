@@ -18,6 +18,7 @@ You may be wondering, 'Why Jezebel?' There are two answers:
 2. I hope to scrape other websites in the future. Fox news nation is in the works. This is just the first one I have written.
 
 Files in this repo:
+
 1. jezebel_scrape.py --- This scrapes jezebel.com and uploads json files with the results to AWS S3.
 2. jezebel_scrape_local.py --- This scrapes jezebel.com, cleans out stopwords, and dumps a word-frequency-dataframe pickle object. This is not yet fully documented. I will write some documentation for this soon.
 
